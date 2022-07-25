@@ -1,0 +1,36 @@
+header {
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  
+  .item {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: "Creepster", cursive;
+    height: 30px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 800;
+    border-color: black;
+    text-decoration: none;
+  }
+  
+  .titulo {
+    position: relative;
+    text-align: center;
+    top: 45px;
+    font-family: "Creepster", cursive;
+    font-size: 80px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    color: black;
+    text-shadow: 10px 10px rgb(70, 6, 87);
+  }
+  
+  a:hover {
+    color: rgb(70, 6, 87);
+  }

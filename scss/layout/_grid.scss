@@ -1,0 +1,44 @@
+  /* ---------------------grids---------------------- */
+  .contenedorgrids {
+    display: grid;
+    grid-template-rows: 12% 10% 25% 10% 29% 5% 9%;
+    grid-template-areas: 50% 50% "header header" "titulo titulo" "noticia1 noticia2" "titulo2 titulo2" "reportaje galeria" "vermas vermas" "footer footer";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .ultimasnoticias {
+    grid-area: titulo;
+    background-color: black;
+  }
+  
+  .trailer {
+    grid-area: noticia1;
+  }
+  
+  .noticias2 {
+    grid-area: noticia2;
+  }
+  
+  .reportajes {
+    grid-area: titulo2;
+  }
+  
+  .reportaje {
+    grid-area: reportaje;
+  }
+  
+  .galeria {
+    grid-area: galeria;
+  }
+  
+  .vermas {
+    grid-area: vermas;
+    background-color: black;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
