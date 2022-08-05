@@ -62,14 +62,6 @@ p {
   text-align: justify;
 }
 
-.boton {
-  background-color: rgb(45, 3, 56);
-  font-size: 80px;
-  padding-left: 60px;
-  text-decoration: none;
-  background-color: black;
-}
-
 .seguir {
   color: aliceblue;
   list-style: none;
@@ -223,19 +215,47 @@ p {
   }
 }
 label {
-  color: rgb(147, 25, 158);
+  color: rgb(124, 19, 150);
+  font-size: 20px;
 }
 
 .btn {
-  color: rgb(147, 25, 158);
+  background-color: rgb(45, 3, 56);
+  color: aliceblue;
+}
+
+.rowcontacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
 }
 
 label {
-  color: rgb(147, 25, 158);
+  color: rgb(124, 19, 150);
+  font-size: 20px;
 }
 
 .btn {
-  color: rgb(147, 25, 158);
+  background-color: rgb(45, 3, 56);
+  color: aliceblue;
+}
+
+.rowcontacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
@@ -243,13 +263,18 @@ footer {
   align-items: center;
   padding: 10px;
 }
-
-.footerbootstrap {
+footer h4 {
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Creepster", cursive;
+  display: flex;
+  justify-content: center;
+}
+footer .footerbootstrap {
   display: flex;
   justify-content: space-around;
 }
-
-.nav-link {
+footer .nav-link {
   text-decoration: none;
   color: aliceblue;
   list-style: none;
@@ -257,26 +282,32 @@ footer {
   justify-content: space-around;
   font-size: 17px;
   border: solid;
-  border-color: rgb(34, 7, 59);
+  border-color: rgb(45, 3, 56);
   font-family: "Glegoo", serif;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-h4 {
-  font-size: 2rem;
-  color: aliceblue;
-  font-family: "Creepster", cursive;
-  display: flex;
-  justify-content: center;
-}
-
 label {
-  color: rgb(147, 25, 158);
+  color: rgb(124, 19, 150);
+  font-size: 20px;
 }
 
 .btn {
-  color: rgb(147, 25, 158);
+  background-color: rgb(45, 3, 56);
+  color: aliceblue;
+}
+
+.rowcontacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
 }
 
 /* ---------------------grids---------------------- */
@@ -329,12 +360,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
-
-.item {
+header .item {
   display: inline-block;
   margin-right: 40px;
-  margin-left: 40px;
+  margin-left: 35px;
   font-size: 30px;
   font-family: "Creepster", cursive;
   height: 30px;
@@ -344,8 +375,7 @@ header {
   border-color: black;
   text-decoration: none;
 }
-
-.titulo {
+header .titulo {
   position: relative;
   text-align: center;
   top: 45px;
@@ -356,13 +386,29 @@ header {
   color: black;
   text-shadow: 10px 10px rgb(70, 6, 87);
 }
-
-a:hover {
-  color: rgb(70, 6, 87);
+header a:hover {
+  color: rgb(45, 3, 56);
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 23px;
+  background-color: rgb(36, 2, 44);
+  border-color: rgb(36, 2, 44);
+  border-width: 4px;
+  margin-right: 50px;
+}
+
+a:hover {
+  color: rgb(45, 3, 56);
+}
+
+.boton {
+  background-color: rgb(45, 3, 56);
+  color: rgb(45, 3, 56);
+  font-size: 80px;
+  padding-left: 60px;
+  text-decoration: none;
+  background-color: black;
 }
 
 footer {
@@ -370,13 +416,18 @@ footer {
   align-items: center;
   padding: 10px;
 }
-
-.footerbootstrap {
+footer h4 {
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Creepster", cursive;
+  display: flex;
+  justify-content: center;
+}
+footer .footerbootstrap {
   display: flex;
   justify-content: space-around;
 }
-
-.nav-link {
+footer .nav-link {
   text-decoration: none;
   color: aliceblue;
   list-style: none;
@@ -384,18 +435,10 @@ footer {
   justify-content: space-around;
   font-size: 17px;
   border: solid;
-  border-color: rgb(34, 7, 59);
+  border-color: rgb(45, 3, 56);
   font-family: "Glegoo", serif;
   border-radius: 10px;
   margin-bottom: 20px;
-}
-
-h4 {
-  font-size: 2rem;
-  color: aliceblue;
-  font-family: "Creepster", cursive;
-  display: flex;
-  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

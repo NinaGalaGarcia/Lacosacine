@@ -1,7 +1,23 @@
 label {
-    color: rgb(147, 25, 158);
-  }
+    color: rgb(124, 19, 150);
+    font-size: 20px;
+}
   
   .btn {
-    color: rgb(147, 25, 158);
+    background-color: $color-terciario;
+    color: $color-secundario;
   }
+
+  .rowcontacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+  }
+
+  
+  .botones { display: flex;
+    justify-content: center;
+    }
+

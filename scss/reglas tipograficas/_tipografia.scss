@@ -14,17 +14,17 @@ $color-terciario:(rgb(45, 3, 56));
 
 /* ---------------------seccion main----------------------- */
     main {
-        background-color: black;
+        background-color: $color-principal;
         font-family: "Glegoo", serif;
       }
       
       .titulonoticia {
         font-family: "Creepster", cursive;
-        color: aliceblue;
+        color: $color-secundario;
         font-size: 40px;
         padding: 20px;
         text-align: center;
-        background-color: black;
+        background-color: $color-principal;
       }
       
       .trailer {
@@ -32,7 +32,7 @@ $color-terciario:(rgb(45, 3, 56));
         background: linear-gradient(rgb(45, 3, 56), black);
         font-family: "Glegoo", serif;
         text-align: justify;
-        color: aliceblue;
+        color: $color-secundario;
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 10px;
@@ -49,7 +49,7 @@ $color-terciario:(rgb(45, 3, 56));
         border-radius: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        color: aliceblue;
+        color: $color-secundario;
         padding-bottom: 15px;
         width: 600px;
       }
@@ -60,32 +60,26 @@ $color-terciario:(rgb(45, 3, 56));
       }
       
       .noticias {
-        background-color: black;
+        background-color: $color-principal;
       }
       
       p {
-        color: aliceblue;
+        color: $color-secundario;
         font-family: "Glegoo", serif;
         font-size: 15px;
         text-align: justify;
       }
       
-      .boton {
-        background-color: rgb(45, 3, 56);
-        font-size: 80px;
-        padding-left: 60px;
-        text-decoration: none;
-        background-color: black;
-      }
+   
       
       .seguir {
-        color: aliceblue;
+        color: $color-secundario;
         list-style: none;
       }
       
       .articulos {
         display: flex;
-        background-color: black;
+        background-color: $color-principal;
         justify-content: space-around;
       }
       

@@ -1,0 +1,12 @@
+@mixin tarjetas {
+    width: 600px;
+    background: linear-gradient($color-terciario,$color-principal);
+    font-family: 'Glegoo', serif;
+    text-align: justify;
+    color: $color-secundario;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
